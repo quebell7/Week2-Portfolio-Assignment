@@ -1,29 +1,45 @@
 /*this page should be named "main.css"*/
 
+/* HOMEPAGE - BODY */
+
 body {
 	font-family: 'arial', sans-serif;
-	margin: 20px 40px 40px 70px;
+	margin: 20px 40px 40px 40px;
 	border-top: solid  10px #000;
 	border-bottom: solid  10px #000;
 }
 
 nav {
-	font-style: normal;
 	font-weight: 700;
 	font-size: 1em;
 	text-align: center;
-	color: black;
 	margin: 30px 0 10px -30px;
+}
+
+img {
+  margin-left: 20px;
+  margin-bottom: 40px;
+  border: 1px solid #222222;
+  padding: 5px;
+  text-align: center
+}
+
+.img-alt {
+	padding: 10px;
+	border: 1px solid #000;
+	width: 20%;
+	max-width: 180px;
+    height: auto;
+	float: right;
+	position: relative;
+	margin: -60px 30px 20px 0px;
 }
 
 
 li {
-	display: inline;
-	list-style-type: none;
-
-}
-
-.li-bullet {
+	list-style-type: square;
+	line-height: 1.8em;
+	margin-left: 8px;
 }
 
 h1 {
@@ -32,11 +48,16 @@ h1 {
 	text-transform: uppercase;
 }
 
+h2 {
+	margin-left: 30px;
+	margin-top: 0px;
+}
+
 h3 {
 	margin-left: 30px;
 	text-transform: uppercase;
 	letter-spacing: .08em;
-	margin-top: -10px;
+	margin-top: 0px;
 }
 
 hr {
@@ -48,45 +69,95 @@ hr {
 
 .hr-2 {
 	position: relative;
-	margin: 25px;
+	margin: 0px 30px 0px 30px;
 }
 
 .hr-3 {
 	margin: 20px 10px 20px 30px;
-	width: 60%;
+	width: 65%;
 
 }
 
 a {
 	text-decoration: underline;
+	font-weight: bold;
 	color: #000;
-}
-
-img {
-	padding: 10px;
-	border: 1px solid #000;
-	width: 20%;
-	max-width: 170px;
-    height: auto;
-	float: right;
-	position: relative;
-	margin: -60px 30px 20px 0px;
-
 }
 
 p {
 	font-family: 'georgia', serif;
-	font-size: 1.1em;
+	font-size: 1.05em;
 	line-height: 1.5em;
-	width: 60%;
+	margin-bottom: 20px;
 	margin-left: 30px;
+	margin-right: 30px;
+}
+
+#p-alt {
+	margin-top: 0px;
+	margin-left: 0px;
 }
 
 footer {
-	margin: 0px 0px 40px 0px;
+	margin: 20px 0px 40px 0px;
 	font-weight: 700;
 	font-size: 1em;
 	text-align: center;
 	color: #000;
+}
+
+small {
+  color: #05080C;
+}
+
+strong {
+  color: #030609;
+  font-style: italic;
+}
+
+/**********************************
+PORTFOLIO PAGE
+**********************************/
+/*.p-main-paragraph {
+	width: 90%;
+	margin-left: 30px;
+	margin-bottom: 30px;
+}*/
+
+
+/*.p-portfolio {
+	margin-left: 10px;
+	margin-bottom: 10px;
+}*/
+
+/*.li-portfolio {
+	width: 90%;
+	color: #eeeeee;
+	
+	list-style-type: square;*/
+/*}*/
+
+/*.img-portfolio {
+	padding: 10px;
+	border: 1px solid #000;
+	max-width: 90%;
+    height: auto;
+    float: left;
+	margin: 0px 0px 10px 30px;
 
 }
+
+#portfoliotext p li a {
+color: blue
+}
+
+#gallery {
+	margin: 0;
+	padding: 0;
+}
+
+#gallery li {
+	float: left;
+	width: 90%;
+	margin: 2.5%;
+}*/
